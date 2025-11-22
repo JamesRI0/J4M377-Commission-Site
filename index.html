@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <a href="Social.html">Social</a>
+    <span class="separator"></span>
+    <a href="Sample.html">Sample</a>
+    <span class="separator"></span>
+    <a href="index.html">Home</a>
+  </nav>
+  <div class="image-container">
+    <img class="image" src="logo.png" alt="Logo Image">
+    </div>
+    <div class="header-spacer"></div>
+</header>
+
+<div class="main-content-wrapper">
+    
+    <div class="sample-box">
+        <h2 class="sample-title">Sample And Recent</h2>
+        <img class="sample-image" src="sample.png" alt="sample image">
+        <a class="sample-nav" href="Sample.html">CHECK</a>
+        </div>
+    
+    <div class="form-container">
+        <form action="mailto:jamesrio0804@gmail.com" method="post" enctype="text/plain">
+            
+            <h2 class="header2">Commission Now!!</h2> 
+            
+            <div class="row">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" placeholder="Your Name" required>
+            </div>
+            
+            <div class="row">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="YourEmail@gmail.com" required>
+            </div>
+            
+            <div class="row">
+                <label for="contact">Contact:</label>
+                <input type="tel" id="tel" name="tel" placeholder="+1 234 567 890" required>
+            </div>
+            
+            <div class="message-row">
+                <label for="address" class="message">Message:</label>
+                <textarea class="textarea" name="user_message" cols="62" rows="10" placeholder="Write anything you want about what you want to commission!" required></textarea>
+            </div>
+            
+            <button class="submit" type="submit"><span class="submit-inner">SEND</span></button>
+
+        </form>
+    </div> <div class="prices-box">
+        <h2 class="side-title">Prices!!</h2>
+        <img class="commission-price" src="price.png" alt="Commission Prices">
+        </div>
+        
+        
+</div>
+  <audio id="background-music" loop>
+        <source src="pudding.mp3" type="audio/mpeg">
+        Your browser does not support the audio element. <!--Replace file name when published in github-->
+    </audio>
+
+    <button id="music-toggle" class="music-button" title="Click this for a background music!">
+        Start Music 🎵
+    </button>
+
+    <div id="music-notification" class="music-notification">
+        Now Playing: <span id="song-title">Pudding 🍮</span>
+    </div>
+    
+    <script src="audio_player.js"></script>
+
+</div>
+
+</body>
+</html>
