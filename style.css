@@ -1,0 +1,369 @@
+body {
+   margin: 0;
+   font-family: Arial, sans-serif;
+   background-color: #FDEAA8;
+   background-image: url(Background.png);
+   background-size: cover;          /* Reminder to replace background image into internal */
+   background-position: center;
+   background-repeat: no-repeat;
+   min-height: 100vh;
+   font-family: Indie flower;
+ }
+header {
+   display: flex;
+   justify-content: space-between;
+   height: 105px; 
+   align-items: center; 
+   background-color: #e48533;
+   color: white;
+   padding: 0 20px;
+ }
+nav {
+   flex: 1;
+   background-color: transparent;
+   text-align: left;
+}
+nav a {
+   color: white;
+   text-decoration: none;
+   margin-right: 15px; 
+   padding: 10px 5px;
+   border-radius: 5px;
+   font-size: 1.87rem; 
+   transition: background-color 0.3s, color 0.3s;
+}
+nav a:hover {
+   background-color: #ffefce;
+   color: #111;
+}
+.image-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.image {
+   height: 120px;
+   margin-top: 9px;
+}      
+.header-spacer {
+   flex: 1;
+   max-width: 50%;
+}
+.line{
+   font-size: 1.87rem
+}
+.separator {
+    display: inline-block;
+    border-left: 2px solid white; 
+    height: 20px; 
+    margin: 0 5px;
+}
+.form-container {
+    font-size: 25px;
+    max-width: 480px;
+    padding: 10px;
+    background: white;
+    border: 15px solid #fed26a;
+    color: #780115;
+    border-radius: 30px;
+}
+label {
+    text-align: left;
+    display: inline-block;
+}
+.message{
+    display: block;
+}
+.submit {
+  display: block;
+  margin: 20px auto -60px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; 
+  text-align: center;
+  position: relative;
+  background-image: linear-gradient(
+    to bottom,     
+    #ffefce 50%,   
+    #FDEAA8 50%    
+  );
+  border: 5px solid #e48533; 
+  color: #780115;           
+  font-family: 'Indie Flower', cursive; 
+  font-size: 1.1rem; 
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 76px; 
+}
+.submit:hover {
+   color: #780115;
+   background-image: none;
+   background-color: #FDEAA8;
+} 
+.header2{
+   text-align: center;
+   margin-top: -35px;
+   position: relative; 
+   z-index: 10;
+   text-shadow:
+         -3px 0px 0 #FFF,  /* Left */
+         3px 0px 0 #FFF,   /* Right */
+         0px -3px 0 #FFF,  /* Top */
+         0px 3px 0 #FFF;   /* Bottom */
+         /* ive setted an comment here because i want to remember how this thing work lol */
+}
+.sample-box {
+    background: white;
+    border: 15px solid #fed26a;
+    border-radius: 30px;
+    width: 250px;
+    height: 250px; 
+    padding: 15px;
+    color: #780115;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.prices-box {
+   background: white;
+    border: 15px solid #fed26a;
+    border-radius: 30px;
+    width: 250px;
+    height: 330px;
+    padding: 10px;
+    color: #780115;
+}
+.side-title {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    color: #780115;
+    margin-top: -22px; 
+    text-align: center;
+    position: relative; 
+    z-index: 10; 
+    text-shadow: 
+        -3px -3px 0 #FFF,  
+         3px -3px 0 #FFF,
+        -3px 3px 0 #FFF,
+         3px 3px 0 #FFF,
+         
+        -4px 0px 0 #FFF, /* Left */
+         4px 0px 0 #FFF, /* Right */
+         0px -4px 0 #FFF, /* Top */
+         0px 4px 0 #FFF, /* Bottom */
+         
+        -2px -4px 0 #FFF, 2px -4px 0 #FFF,
+        -4px -2px 0 #FFF, 4px -2px 0 #FFF,
+        -2px 4px 0 #FFF, 2px 4px 0 #FFF,
+        -4px 2px 0 #FFF, 4px 2px 0 #FFF;
+}
+.sample-title {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    color: #780115;
+    margin-top: -29px; 
+    text-align: center;
+    position: relative; 
+    z-index: 10; 
+    text-shadow: 
+        -3px -3px 0 #FFF,  
+         3px -3px 0 #FFF,
+        -3px 3px 0 #FFF,
+         3px 3px 0 #FFF,
+         
+        -4px 0px 0 #FFF, /* Left */
+         4px 0px 0 #FFF, /* Right */
+         0px -4px 0 #FFF, /* Top */
+         0px 4px 0 #FFF, /* Bottom */
+         
+        -2px -4px 0 #FFF, 2px -4px 0 #FFF,
+        -4px -2px 0 #FFF, 4px -2px 0 #FFF,
+        -2px 4px 0 #FFF, 2px 4px 0 #FFF,
+        -4px 2px 0 #FFF, 4px 2px 0 #FFF;
+}
+.main-content-wrapper {
+    display: flex; 
+    justify-content: center; 
+    gap: 30px; 
+    margin-top: 55px;
+    align-items: flex-start;
+}
+.music-button {
+    background-color: #e48533;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Indie Flower', cursive;
+    display: block;
+    margin: 50px;
+}
+.sample-nav{
+    display: block;
+    width: 130px;
+    height: auto;
+    margin: 0 auto 10px;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    background-image: linear-gradient(
+      to bottom,      
+      #ffefce 50%,    
+      #FDEAA8 50%    
+    );
+    border: 5px solid #e48533;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #780115;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: normal;
+    padding: 10px 0;
+    z-index: 5;
+    margin-top: 7px !important;
+}
+.sample-nav:hover{
+   color: #780115;
+   background-image: none;
+   background-color: #FDEAA8;
+}
+.music-notification {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: lab(50.81% 55.56 31.34);
+    color: #ffefce;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    font-size: 1rem;
+    font-family: 'Indie Flower', cursive;
+    z-index: 2;
+    white-space: nowrap;
+    transform: translateX(150%);
+    transition: transform 0.5s ease-out;
+}
+.music-notification.show {
+    transform: translateX(0);
+    animation: bounceInRight 0.5s forwards;
+}
+@keyframes bounceInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    60% {
+        opacity: 1;
+        transform: translateX(-15px);
+    }
+    80% {
+        transform: translateX(5px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.commission-price {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: -10px auto 0;
+    max-height: 280px; 
+    object-fit: contain;
+}
+.sample-image {
+    max-width: 245px;
+    max-height: 245px; 
+    object-fit: contain;
+    z-index: 4;
+    margin-top: -35px;
+}
+@media screen and (max-width: 768px) {
+    .main-content-wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px; 
+        margin-top: 20px;
+    }
+    .form-container{
+        width: 90%;
+        max-width: 400px;
+        height: auto;
+        margin: 0;
+    }
+    .sample-box{
+        width: 250px;
+        max-width: 400px;
+        height: 250px;
+        margin: 0;
+    }
+    .prices-box{
+         width: 90%;
+        max-width: 400px;
+        height: auto;
+        margin: 0;
+    }
+    header {
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    nav {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+        font-size: 1.7rem;
+    }
+    .sample-nav {
+        margin: 225px auto;
+    }
+    .music-button {
+        bottom: 10px;
+        right: 10px;
+        margin: 0;
+        position: fixed;
+        z-index: 3;
+        font-size: 14px;
+    }
+    
+    .music-notification {
+        bottom: 60px;
+        right: 10px;
+        width: auto;
+    }
+    .textarea{
+        width: 395px;
+    }
+    .image{
+        height: 110px;
+        margin-top: 9px;  
+    }
+    .prices-box {
+        width: 275px;
+        height: 320px;
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    body{
+        background-color: #FDEAA8;
+        background-image: url(mobile-background.png);
+        background-size: cover;          /* Reminder to replace background image into internal */
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+    }
+}
