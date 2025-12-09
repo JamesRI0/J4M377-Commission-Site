@@ -367,3 +367,116 @@ label {
         min-height: 100vh;
     }
 }
+
+   /* PAGE 2: SAMPLE GALLERY */
+
+
+body.sample-page-bg{
+   margin: 0;
+   font-family: Arial, sans-serif;
+   background-color: #FDEAA8;
+   background-image: url(Background.png);
+   background-size: cover;          /* Reminder to replace background image into internal */
+   background-position: center;
+   background-attachment: fixed;
+   min-height: 100vh;
+   font-family: Indie flower;
+   z-index: -5;
+}
+
+.gallery-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin-top: 30px;
+}
+
+.art-piece {
+    max-width: 300px;
+    width: auto;
+    height: auto;
+    border: 4px solid lab(0% 0 0);
+    border-radius: 5px;
+    box-shadow: 0 20px 10px #561a0166;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+}
+.big-center2{
+    max-width: 700px;
+    width: 700px;
+    height: 470px;
+    border: 4px solid lab(0% 0 0);
+    border-radius: 5px;
+    box-shadow: 0 20px 10px #561a0166;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+@media (max-width: 768px) {
+ .big-center2{
+    width: 380px;
+    height: 265px;
+ }
+ body{
+        background-color: #FDEAA8;
+        background-image: url(mobile-background.png);
+        background-size: cover;          /* Reminder to replace background image into internal */
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+    }
+}
+.art-piece:hover {
+    transform: scale(1.15);
+    z-index: 10;
+}
+.header3{
+    text-align: center;
+    margin-top: -15px;
+    position: relative; 
+    z-index: 10;
+    margin-bottom: -27px;
+    text-decoration: underline;
+    text-shadow:
+         -3px 0px 0 #FFF,  /* Left */
+         3px 0px 0 #FFF,   /* Right */
+         0px -3px 0 #FFF,  /* Top */
+         0px 3px 0 #FFF;   /* Bottom */
+         /* ive setted an comment here because i want to remember how this thing work lol */
+}
+.header4{
+    text-align: center;
+    margin-top: 15px;
+    position: relative; 
+    z-index: 10;
+    margin-bottom: -27px;
+    text-decoration: underline;
+    text-shadow:
+         -3px 0px 0 #FFF,  /* Left */
+         3px 0px 0 #FFF,   /* Right */
+         0px -3px 0 #FFF,  /* Top */
+         0px 3px 0 #FFF;   /* Bottom */
+         /* ive setted an comment here because i want to remember how this thing work lol */
+}
+.header5{
+    text-align: center;
+    margin-top: 15px;
+    position: relative; 
+    z-index: 10;
+    margin-bottom: -27px;
+    text-decoration: underline;
+    text-shadow:
+         -3px 0px 0 #FFF,  /* Left */
+         3px 0px 0 #FFF,   /* Right */
+         0px -3px 0 #FFF,  /* Top */
+         0px 3px 0 #FFF;   /* Bottom */
+         /* ive setted an comment here because i want to remember how this thing work lol */
+}
+
