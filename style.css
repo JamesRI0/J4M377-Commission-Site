@@ -484,7 +484,7 @@ body.social-page-bg{
    margin: 0;
    font-family: Arial, sans-serif;
    background-color: #FDEAA8;
-   background-image: url(Downloads/Background.png);
+   background-image: url(Background.png);
    background-size: cover;          /* Reminder to replace background image into internal */
    background-position: center;
    background-attachment: fixed;
