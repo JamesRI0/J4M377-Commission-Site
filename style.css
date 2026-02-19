@@ -480,3 +480,220 @@ body.sample-page-bg{
          /* ive setted an comment here because i want to remember how this thing work lol */
 }
 
+body.social-page-bg{
+   margin: 0;
+   font-family: Arial, sans-serif;
+   background-color: #FDEAA8;
+   background-image: url(Downloads/Background.png);
+   background-size: cover;          /* Reminder to replace background image into internal */
+   background-position: center;
+   background-attachment: fixed;
+   min-height: 100vh;
+   font-family: Indie flower;
+   z-index: -5;
+}
+.editing-img{
+    width: 520px;
+    height: 265px;
+    border: #fed26a 13px solid;
+    background: white;
+    border-radius: 20px;
+    justify-self: center;
+}
+.web-design-img{
+    width: 520px;
+    height: 265px;
+    border: #fed26a 13px solid;
+    border-radius: 20px;
+    background: #FFF;
+    justify-self: center;
+}
+.editing-and-web-designing-container{
+    width: auto;
+    height: auto;
+    margin: 15px;
+    margin-top: 11px;
+    margin-left: -700px;
+    border: #fed26a 2px solid;
+    background-color: #fed26a;
+    border-radius: 15px;
+    justify-self: center;
+}
+.header-edit{
+    color: #780115;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+
+    font-size: 29px;
+    z-index: 20;
+    margin: 0;
+    width: 100%;   
+    text-align: center;
+    
+    text-shadow:
+         -3px 0px 0 #FFF, 
+         3px 0px 0 #FFF, 
+         0px -3px 0 #FFF, 
+         0px 3px 0 #FFF;
+}
+
+.editing {
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+.header-design{
+    color: #780115;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+
+    font-size: 29px;
+    z-index: 20;
+    margin: 0;
+    width: 100%;   
+    text-align: center;
+    
+    text-shadow:
+         -3px 0px 0 #FFF, 
+         3px 0px 0 #FFF, 
+         0px -3px 0 #FFF, 
+         0px 3px 0 #FFF;
+}
+
+.web-designing{
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+.sticker-production{
+    width: 555px;
+    height: 555px;
+    border: 15px solid #fed26a;
+    background: white;
+    border-radius: 30px;
+    justify-self: center;
+    z-index: 10;
+    margin-top: -604px;
+    margin-right: -690px;
+    position: relative;
+}
+.sticker-text{
+    color: #780115;
+    position: absolute;
+    top: -20px;
+    left: 52%;
+    transform: translateX(-50%);
+    
+
+    font-size: 29px;
+    z-index: 20;
+    margin: 0;
+    width: 100%;   
+    text-align: center;
+    
+    text-shadow:
+         -3px 0px 0 #FFF, 
+         3px 0px 0 #FFF, 
+         0px -3px 0 #FFF, 
+         0px 3px 0 #FFF;
+}
+.sticker-img{
+    width: 555px;
+    height: 555px;
+    border-radius: 10px;
+}
+@media screen and (max-width: 760px) {
+    
+    .editing-and-web-designing-container {
+       height: 75% !important;
+       width: 65% !important;
+       margin-right: -600px !important;
+       border: 0px solid black!important;
+       z-index: 200;
+       background-color: transparent !important;
+    }
+    .sticker-production {
+        margin-top: 20px !important;
+        margin-right: 0 !important;
+        width: 440px !important;
+        height: 440px !important;
+        margin-bottom: 15px;
+    }
+    
+    .editing-img, 
+    .web-design-img{
+
+        width: 470px;
+        height: 215px;
+        margin-left: 184px;
+
+
+        /*
+        width: 100% !important;
+        height: 100% !important;
+        border: 15px solid #fed26a !important;*/
+    }
+    .sticker-img {
+        width: 100% !important;
+        height: 100% !important;
+        margin-top: -30px !important;
+        z-index: 100;
+    }
+    .sticker-text {
+        font-size: 24px;
+        position: relative;
+        margin-top: -15px;
+    }
+    /*
+    .header-edit, 
+    .header-design, 
+    .sticker-text {
+        font-size: 24px;
+        position: relative;
+        top: 0;
+        margin-bottom: 10px;
+        margin-right: -150px;
+        
+    }
+        */
+    .header-edit, 
+    .header-design, 
+    .sticker-text {
+    font-size: 24px;
+    position: relative;
+    white-space: nowrap;
+} 
+    .header-design{
+        white-space: nowrap;
+        margin-left: -54px;
+    }
+    .header-edit {
+    top: 0px;           /* Adjusts up/down */
+    left: 468px;         /* Adjusts left/right */
+    margin-bottom: 10px;
+}
+
+     .header-design {
+    top: 0px;           /* Adjusts up/down */
+    left: 535px;         /* Adjusts left/right */
+    margin-bottom: 10px;
+}
+
+    .sticker-text {
+    top: 0px;           /* Adjusts up/down */
+    left: 227px;         /* Adjusts left/right */
+    margin-bottom: 10px;
+}
+    .media-mobile{
+        margin-left: -147.5px;
+    }
+}
+
