@@ -636,10 +636,7 @@ body.social-page-bg{
         margin-left: 184px;
 
 
-        /*
-        width: 100% !important;
-        height: 100% !important;
-        border: 15px solid #fed26a !important;*/
+
     }
     .sticker-img {
         width: 100% !important;
@@ -652,18 +649,7 @@ body.social-page-bg{
         position: relative;
         margin-top: -15px;
     }
-    /*
-    .header-edit, 
-    .header-design, 
-    .sticker-text {
-        font-size: 24px;
-        position: relative;
-        top: 0;
-        margin-bottom: 10px;
-        margin-right: -150px;
-        
-    }
-        */
+
     .header-edit, 
     .header-design, 
     .sticker-text {
