@@ -3,7 +3,7 @@ const toggleButton = document.getElementById('music-toggle');
 const notification = document.getElementById('music-notification');
 
 if (audio && toggleButton && notification) {
-    audio.volume = 0.04; 
+    audio.volume = 0.3; 
 
     function toggleMusic() {
         if (audio.paused) {
